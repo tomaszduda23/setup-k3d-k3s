@@ -2,7 +2,7 @@
 set -eu
 set -x
 
-: ${GITHUB_API_URL:=https://api.github.com}
+GITHUB_API_URL=https://api.github.com
 : ${VERSION:=latest}
 : ${REPO:=k3s-io/k3s}
 
