@@ -1,5 +1,6 @@
 #!/bin/bash
 set -eu
+set -x
 
 : ${GITHUB_API_URL:=https://api.github.com}
 : ${VERSION:=latest}
